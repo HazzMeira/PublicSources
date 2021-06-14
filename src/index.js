@@ -12,5 +12,5 @@ mongoose.connect('mongodb+srv://hazz:hazz01@cluster0-qr0fd.mongodb.net/nodetest?
 app.use(cors());
 app.use(express.json());
 app.use(routes);
-   
+
 app.listen(3333);
