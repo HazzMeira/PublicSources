@@ -10,6 +10,9 @@ const routes = Router();
 //Body params: req.body (create obj)
 
 //MongoDB (Não-relacional)
+routes.get('/', (req,res)=>{
+    res.send('Hello World!');
+});
 
 routes.get('/devs', DevController.index);
 routes.post('/devs', DevController.store);
